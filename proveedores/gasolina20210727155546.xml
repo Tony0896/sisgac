@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Carga_gasolina">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_gas" type="xs:int" minOccurs="0" />
+                <xs:element name="unidad" type="xs:string" minOccurs="0" />
+                <xs:element name="fecha" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="litros" type="xs:decimal" minOccurs="0" />
+                <xs:element name="p_litro" type="xs:decimal" minOccurs="0" />
+                <xs:element name="p_carga" type="xs:decimal" minOccurs="0" />
+                <xs:element name="km_carga" type="xs:decimal" minOccurs="0" />
+                <xs:element name="km_anterior" type="xs:decimal" minOccurs="0" />
+                <xs:element name="km_reco" type="xs:decimal" minOccurs="0" />
+                <xs:element name="rendimiento" type="xs:decimal" minOccurs="0" />
+                <xs:element name="semana" type="xs:string" minOccurs="0" />
+                <xs:element name="region" type="xs:string" minOccurs="0" />
+                <xs:element name="forma_pago" type="xs:string" minOccurs="0" />
+                <xs:element name="observacion" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Carga_gasolina>
+    <id_gas>77</id_gas>
+    <unidad>818</unidad>
+    <fecha>2021-05-03T00:00:00-05:00</fecha>
+    <litros>41.760</litros>
+    <p_litro>20.350</p_litro>
+    <p_carga>849.820</p_carga>
+    <km_carga>49971</km_carga>
+    <km_anterior>49414</km_anterior>
+    <km_reco>557</km_reco>
+    <rendimiento>13.338</rendimiento>
+    <semana />
+    <region>SAN LUIS POTOSI</region>
+    <forma_pago>BPme</forma_pago>
+    <observacion>GERARDO</observacion>
+  </Carga_gasolina>
+  <Carga_gasolina>
+    <id_gas>182</id_gas>
+    <unidad>818</unidad>
+    <fecha>2021-05-10T00:00:00-05:00</fecha>
+    <litros>40.000</litros>
+    <p_litro>20.390</p_litro>
+    <p_carga>815.600</p_carga>
+    <km_carga>50548</km_carga>
+    <km_anterior>49971</km_anterior>
+    <km_reco>577</km_reco>
+    <rendimiento>14.425</rendimiento>
+    <semana />
+    <region>SAN LUIS POTOSI</region>
+    <forma_pago>BPme</forma_pago>
+    <observacion>GERARDO</observacion>
+  </Carga_gasolina>
+  <Carga_gasolina>
+    <id_gas>280</id_gas>
+    <unidad>818</unidad>
+    <fecha>2021-05-17T00:00:00-05:00</fecha>
+    <litros>41.680</litros>
+    <p_litro>20.390</p_litro>
+    <p_carga>849.860</p_carga>
+    <km_carga>51131</km_carga>
+    <km_anterior>50548</km_anterior>
+    <km_reco>583</km_reco>
+    <rendimiento>13.988</rendimiento>
+    <semana />
+    <region>SAN LUIS POTOSI</region>
+    <forma_pago>BPme</forma_pago>
+    <observacion>GERARDO</observacion>
+  </Carga_gasolina>
+  <Carga_gasolina>
+    <id_gas>389</id_gas>
+    <unidad>818</unidad>
+    <fecha>2021-05-24T00:00:00-05:00</fecha>
+    <litros>40.809</litros>
+    <p_litro>20.390</p_litro>
+    <p_carga>832.100</p_carga>
+    <km_carga>51639</km_carga>
+    <km_anterior>51131</km_anterior>
+    <km_reco>508</km_reco>
+    <rendimiento>12.448</rendimiento>
+    <semana />
+    <region>SAN LUIS POTOSI</region>
+    <forma_pago>BP FLEET</forma_pago>
+    <observacion>GERARDO</observacion>
+  </Carga_gasolina>
+  <Carga_gasolina>
+    <id_gas>390</id_gas>
+    <unidad>818</unidad>
+    <fecha>2021-05-31T00:00:00-05:00</fecha>
+    <litros>32.990</litros>
+    <p_litro>20.390</p_litro>
+    <p_carga>672.670</p_carga>
+    <km_carga>52147</km_carga>
+    <km_anterior>51639</km_anterior>
+    <km_reco>508</km_reco>
+    <rendimiento>15.399</rendimiento>
+    <semana />
+    <region>SAN LUIS POTOSI</region>
+    <forma_pago>BP FLEET</forma_pago>
+    <observacion>GERARDO </observacion>
+  </Carga_gasolina>
+</NewDataSet>
